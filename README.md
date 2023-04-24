@@ -1,9 +1,8 @@
 # Challenge 12
 
 ## Description
-Employee Tracker
+Employee Tracker app using mysql
 
-## Screenshots
 
 ## License
 
