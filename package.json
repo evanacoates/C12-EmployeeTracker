@@ -4,24 +4,23 @@
     "description": "Used to track employees",
     "main": "index.js",
     "scripts": {
-      "test": "test"
+        "test": "test"
     },
     "repository": {
-      "type": "git"
+        "type": "git"
     },
     "keywords": [
-      "employee-manager"
+        "employee-manager"
     ],
     "author": "Evan Coates",
     "license": "MIT",
-    "bugs": {
-    },
+    "bugs": {},
     "dependencies": {
-      "console.table": "^0.10.0",
-      "express": "^4.18.2",
-      "inquirer": "^8.2.4",
-      "mysql2": "^3.0.1",
-      "sequelize": "^6.28.0",
-      "dotenv": "^16.0.3"
+        "console.table": "^0.10.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "inquirer": "^8.2.4",
+        "mysql2": "^3.0.1",
+        "sequelize": "^6.28.0"
     }
-  }
+}
