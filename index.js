@@ -15,3 +15,20 @@ const db = mysql.createConnection(
     },
     console.log(`Connected to the db.`)
   );
+
+  const choiceNavigation = () => {
+    inquirer.prompt({
+        message: 'Which category do you wish to view?',
+        name: 'menu',
+        type: 'list',
+        choices: [
+            'View Departments',
+            'View Roles',
+            'View Employees',
+        ]
+
+    })
+
+  };
+
+  choiceNavigation();
